@@ -7,7 +7,9 @@
 .header{
     width: 100%;
     height: 65px;
-    background: #fff;
+    background: #4E4E4E;
+    left: 0;
+    top: 0;
     position: fixed;
 }
 .container{
@@ -30,15 +32,15 @@
     display: block;
     padding: 0px 20px;
     text-decoration: none;
-    color: #6d6d6d;
-    transition: all 500ms ease;
+    color: white;
+    transition: all 300ms ease;
 }
 .menu a:hover{
     background: #cc673b;
     color: #fff;
 }
 .menu .submenu{
-    background: #fff;
+    background: #6A6868;
     box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
     display: none;
 }
@@ -49,9 +51,42 @@
     display: block;
 }
 /*estilos para la portada*/
-.portada{
+.content-all{
     width: 100%;
-    height: 520px;
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
+    max-width: 1000px;
+    background: #4E4E4E;
+    margin: auto;
+    margin-top: 80px;
+    border: 2px solid white;
+}
+
+.content-all article{
+    padding: 40px;
+}
+
+.content-all article h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.content-all article .parrafo1{
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+.content-all article .parrafo2{
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+.content-all article img{
+    width: 100%;
+    border: 4px solid white;
+    margin-top: 40px;
 }
