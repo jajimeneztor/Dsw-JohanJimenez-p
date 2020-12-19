@@ -96,3 +96,8 @@
     border: 4px solid white;
     margin-top: 40px;
 }
+
+.content-all article iframe{
+    width: 80%;
+    height: 90vh;
+}
