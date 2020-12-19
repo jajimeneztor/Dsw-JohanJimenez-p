@@ -19,6 +19,7 @@
 .logo{
     float: left;
     line-height: 65px;
+    color: white;
 }
 .menu{
     float: right;
@@ -62,6 +63,11 @@
 
 .content-all article{
     padding: 40px;
+}
+
+.content-all article p{
+    text-align: justify;
+    font-family: Arial
 }
 
 .content-all article h1{
