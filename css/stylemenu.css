@@ -70,7 +70,26 @@
     font-family: Arial
 }
 
+.content-all article li p{
+    text-align: justify;
+    font-family: Arial
+}
+
 .content-all article h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.content-all article h2{
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.content-all article h3{
     font-size: 30px;
     color: white;
     font-weight: 100;
@@ -84,11 +103,19 @@
     letter-spacing: 2px;
 }
 
+.content-all article .parrafo3{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
 .content-all article .parrafo2{
     font-size: 20px;
     color: white;
     margin-top: 40px;
     letter-spacing: 1px;
+    text-align: justify;
 }
 
 .content-all article img{
@@ -97,7 +124,54 @@
     margin-top: 40px;
 }
 
+.content-all article .card-body img{
+    width: 100%;
+    border: 4px solid white;
+    margin-top: 40px;
+    align-self: center;
+}
+
 .content-all article iframe{
     width: 80%;
     height: 90vh;
+}
+
+.content-all article .textbox table {
+  align-content: center;
+  text-align: center;
+  border: 1px solid #C0D8D7;
+  border-collapse: collapse;
+  width: 80%;
+}
+.content-all article .textbox thead {
+  background-color: #246355;
+  text-align: center;
+  border-bottom: solid 2px #0F3620;
+  color: white;
+}
+
+.content-all article .textbox th {
+  text-align: center;
+}
+
+.content-all article .textbox tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.content-all article .textbox td {
+  padding: 20px
+}
+
+.content-all article .testbox {
+  text-align: center;
+}
+
+.content-all article .card-body{
+    align-items: center;
+    color: white;
+
+}
+.content-all article .card-body img{
+  width: 50%;
+  height: 40%;
 }
